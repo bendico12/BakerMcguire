@@ -618,6 +618,7 @@ body, html{
     }
 
     @media (max-width: 680px) {
+         .Explore a img{transform: translateX(-5.5px);}
         .contents{height: 850px;}
         .contents.con1{height: 1000px;}
         .arrivals{
