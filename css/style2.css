@@ -583,7 +583,7 @@ body, html{
 .move a img,.text,.boderline{ transition: all 0.5s ease-in-out;}
 .BROWSE:hover{
     .move a img{
-        transform: translateX(-120px)translateY(40px); box-shadow: 10px 20px rgba(0, 0, 0, 0.25) ;
+        transform: translateX(-120px)translateY(40px); filter: drop-shadow( 5px 7px 5px gray) ;
     }
     .text{ text-align: right; transform: rotateX(360deg)translateX(180px); text-shadow: 0.8px 0.8px rgba(85, 85, 85, 0.682);}
     .boderline{ transform: translateX(120px);}
@@ -645,7 +645,7 @@ body, html{
         }
         .BROWSE:hover{
             .move a img{
-                transform: translateX(-90px)translateY(40px); box-shadow: 10px 20px rgba(0, 0, 0, 0.034) ;
+                transform: translateX(-90px)translateY(40px); filter: drop-shadow( 4px 4px 5px gray) ;
             }
             .text{ text-align: right; transform: rotateX(360deg)translateX(160px); text-shadow: 0.8px 0.8px rgba(85, 85, 85, 0.682);}
             .boderline{ transform: translateX(40px);}
@@ -680,7 +680,7 @@ body, html{
         }
         .BROWSE:hover{
             .move a img{
-                transform: translateX(-60px)translateY(40px); box-shadow: 10px 20px rgba(0, 0, 0, 0.034) ;
+                transform: translateX(-60px)translateY(40px); filter: drop-shadow( 4px 4px 5px gray);
             }
             .text{ text-align: right; transform: rotateX(360deg)translateX(130px); text-shadow: 0.8px 0.8px rgba(85, 85, 85, 0.682);}
             .boderline{ transform: translateX(40px);}
@@ -710,7 +710,7 @@ body, html{
             .boderline{ padding: 20px;}
             .BROWSE:hover{
                 .move a img{
-                    transform: translateX(-50px)translateY(40px); box-shadow: 10px 20px rgba(0, 0, 0, 0.034) ;
+                    transform: translateX(-50px)translateY(40px); filter: drop-shadow( 3px 3px 5px gray) ;
                 }
                 .text{ text-align: right; transform: rotateX(360deg)translateX(150px); text-shadow: 0.8px 0.8px rgba(85, 85, 85, 0.682);}
                 .boderline{ transform: translateX(0);}
