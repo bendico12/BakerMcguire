@@ -886,7 +886,7 @@ width: 100%; height: 550px; margin-top: 20px;
         .low_left{ width: 300px; float: none; margin: 0 auto;}
         .low_right{transform: translateY(30px);}
         .footer{
-            height: 100%;
+            height: 300px;
         }
         .ft_sub{display: none;}
         .ft-wrap{
