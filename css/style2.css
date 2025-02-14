@@ -450,7 +450,9 @@ body, html{
 }
 @media screen and (max-height: 600px) {
     .thumbnail{ 
-        height: 150px; 
+        height: 150px;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
     }
     .thumbnail .item{
         height: 150px;
