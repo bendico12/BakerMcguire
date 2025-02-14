@@ -81,4 +81,20 @@ window.addEventListener('scroll', function() {
     const indicator = document.querySelector('.scroll-indicator');
     indicator.style.display = 'none';
   });
+
+$(function() {
+    $('.ft_title').hover(
+        function() {
+            if ($(window).width() <= 425) {
+                $(this).siblings('.ft_sub').stop(true, true).slideDown(); // 슬라이드 다운
+            }
+        },
+        function() {
+            if ($(window).width() <= 425) {
+                $(this).siblings('.ft_sub').stop(true, true).slideUp(); // 슬라이드 업
+            }
+        }
+    );
+   
+});
   
