@@ -887,9 +887,9 @@ width: 100%; height: 550px; margin-top: 20px;
         .footer{
             height: 100%;
         }
-        
+        .ft_sub{display: none;}
         .ft-wrap{
-            margin-top: 10px; height: 620px;
+            margin-top: 10px; height: 200px;
         }
         .ft_top{ height: 58px;}
         .ft-wrap .ft_sub{
