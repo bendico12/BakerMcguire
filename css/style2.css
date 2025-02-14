@@ -448,6 +448,14 @@ body, html{
         }
     }
 }
+@media screen and (max-height: 600px) {
+    .thumbnail{ 
+        height: 150px; 
+    }
+    .thumbnail .item{
+        height: 150px;
+    }
+}
 /* drop */
 .scroll-indicator{
     bottom: 10px;
