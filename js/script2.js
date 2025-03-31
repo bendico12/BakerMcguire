@@ -83,7 +83,7 @@ window.addEventListener('scroll', function() {
   });
 
 $(function() {
-    $('.ft_title').hover(
+    $('.ft_title').click(
         function() {
             if ($(window).width() <= 425) {
                 $(this).siblings('.ft_sub').stop(true, true).slideDown(); // 슬라이드 다운
